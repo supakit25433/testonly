@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Title from './Components/Title';
 import Table from './Components/Table';
+import Header from './Components/Header';
 
 function App() {
   return (
@@ -21,8 +22,9 @@ function App() {
           Learn React
         </a>
       </header>
-      <Title/>
+      <Title name="Supakrit"/>
       <Table/>
+      <Header/>
     </div>
   );
 }
